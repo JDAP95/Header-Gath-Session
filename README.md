@@ -1,4 +1,4 @@
-<h1 style="text-aling: xenter;">Header-Hero Gath Session</h1>
+<h1 align="center">Header-Hero Gath Session</h1>
 
 ## _Description_
 
