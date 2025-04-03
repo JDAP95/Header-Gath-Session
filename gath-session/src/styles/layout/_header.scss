@@ -1,0 +1,33 @@
+@use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as m;
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        ul {
+            @include m.reset-list();
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 30px;
+
+            a {
+                text-decoration: none;
+                color: v.$grey;
+            }
+
+            a:hover {
+                // text-decoration: underline;
+                // text-decoration-color: v.$pink;
+                color: white;
+                border-bottom: 2px solid v.$pink;
+            }
+        }
+    }
+}

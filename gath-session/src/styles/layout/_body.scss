@@ -1,0 +1,10 @@
+@use "../abstracts/variables" as v;
+
+body {
+    background-color: v.$black;
+    color: white;
+    background-image: v.$url-1, v.$url-2, v.$url-3, v.$url-4, v.$url-5;
+    background-size: 14%;
+    background-repeat: no-repeat;
+    background-position: top 115px left 715px, top 545px left 715px, top 115px left 929px, top 330px left 930px, top 243px left 1150px;
+}
