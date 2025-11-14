@@ -4,6 +4,7 @@
 header {
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-bottom: 24px;
 
     .container {
         display: flex;
@@ -16,6 +17,8 @@ header {
             justify-content: space-between;
             align-items: center;
             gap: 30px;
+            font-size: 18px;
+            font-weight: 400;
 
             a {
                 text-decoration: none;
@@ -23,8 +26,6 @@ header {
             }
 
             a:hover {
-                // text-decoration: underline;
-                // text-decoration-color: v.$pink;
                 color: white;
                 border-bottom: 2px solid v.$pink;
             }
